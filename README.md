@@ -154,9 +154,5 @@ void loop() {
   mesh.update();
 }
 
-
 # NOTE = Run and upload code in Arduino UNO to Upload in KIT
-
-
-}
 ```
