@@ -1,6 +1,6 @@
-'''cpp
+```cpp
 /*
-  Decentralized Offline Disaster Response Network
+  🚨 Decentralized Offline Disaster Response Network
   ESP32 Mesh + Edge AI
   Author: Vijay
   Board: ESP32 Dev Kit
@@ -46,18 +46,18 @@ MPU6050 mpu;
 String classifyDisaster(float temp, int gas, float vibration) {
 
   if (temp > 50 && gas > 2000)
-    return " FIRE + GAS";
+    return "FIRE + GAS";
 
   if (vibration > 2.5)
-    return " EARTHQUAKE";
+    return "EARTHQUAKE";
 
   if (temp > 50)
-    return " FIRE ALERT";
+    return "FIRE ALERT";
 
   if (gas > 2000)
-    return " GAS LEAK";
+    return "GAS LEAK";
 
-  return " NORMAL";
+  return "NORMAL";
 }
 
 // ===== Sensor Broadcast Task =====
@@ -153,6 +153,6 @@ void setup() {
 void loop() {
   mesh.update();
 }
-
+```
 # NOTE = Run and upload code in Arduino UNO to Upload in KIT
 ```
