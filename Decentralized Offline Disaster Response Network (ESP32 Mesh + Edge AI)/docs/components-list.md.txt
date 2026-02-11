@@ -1,0 +1,23 @@
+# 🧩 Hardware Components
+
+## Core
+- ESP32 Dev Kit × 3
+- USB Cable × 3
+
+## Sensors (Sensor Node)
+- DHT11 Temperature & Humidity Sensor
+- MQ-2 Gas Sensor (optional)
+- MPU6050 Vibration Sensor (optional)
+
+## Display Node
+- OLED Display (0.96" I2C)
+
+## Power
+- Power Bank / Li-ion Battery
+- Jumper Wires
+- Breadboard
+
+## Optional
+- Buzzer
+- LED
+- ESP32-CAM
